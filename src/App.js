@@ -1,7 +1,6 @@
 import {useSelector,useDispatch } from 'react-redux';
 import './App.css';
 import {incNumber,decNumber} from './Action';
-
 function App() {
   const mystate= useSelector((state)=>state.changeNumber);
   const dispatch=useDispatch();
